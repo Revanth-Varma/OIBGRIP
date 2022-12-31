@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #97DECE;
+    min-height: 75vh;
+}
+#display{
+  height: 50pxvh;
+  margin-bottom: 8px;
+}
+.display1 #scrn1{
+  margin: auto;
+  width: 98%;
+  height: 30px;
+  color: white;
+  background-color: black;
+  font-size:medium;
+  text-align:start;
+  border:none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.display2 #scrn2{
+  border: none;
+  width: 98%;
+  height: 50px;
+  color: white;
+  background-color: black;
+  font-size:x-large;
+  text-align: end;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.row{
+  margin: 2px;
+  display: flex;
+  column-gap: 4px;
+  padding: 2px;
+}
+.button{
+  width: 20%;
+  height: 50px;
+  background-color: darkorange;
+  border-radius: 10px;
+}
+#ans{
+  width: 20%;
+  height: 50px;
+  background-color: darkorange;
+  border-radius: 10px;
+}
+#equal{
+  width: 40%;
+  height: 50px;
+  background-color: aqua;
+  font-family: 'Trebuchet MS';
+  border-radius: 10px;
+
+}
+.container{
+  padding: 4px;
+  border: solid;
+  border-width: 3px;
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 1);
+  background-color: blanchedalmond;
+  border-radius: 15px;
+}
+h1{
+  text-align: center;
+  font-family: 'Trebuchet MS';
+}
+
+.button:hover{
+  background-color: bisque;
+}
+#ans:hover{
+  background-color: bisque;
+}
+#equal:hover{
+  background-color:deepskyblue;
+}

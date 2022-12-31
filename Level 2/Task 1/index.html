@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+  <section>
+    <h1>My Calculator</h1>
+    <div class="container">
+        <div id="display">
+            <div class="display1">
+                <input type="text" id="scrn1">
+            </div>
+            <div class="display2">
+              <input type="text" id="scrn2" placeholder="0" >
+            </div>
+        </div>
+        <div class="row">
+            <button class="button" onclick="display('(')">(</button>
+            <button class="button" onclick="display(')')">)</button>
+            <button id="ans" onclick="Ans()">ANS</button>
+            <button class="button" onclick="del()">DEL</button>
+            <button class="button" onclick="clr()">CLEAR</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="display('7')">7</button>
+            <button class="button" onclick="display('8')">8</button>
+            <button class="button" onclick="display('9')">9</button>
+            <button class="button" onclick="display('*0.01*')">%</button>
+            <button class="button" onclick="sqrt()">√</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="display('4')">4</button>
+            <button class="button" onclick="display('5')">5</button>
+            <button class="button" onclick="display('6')">6</button>
+            <button class="button" onclick="display('*')">×</button>
+            <button class="button" onclick="display('/')">÷</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="display('1')">1</button>
+            <button class="button" onclick="display('2')">2</button>
+            <button class="button" onclick="display('3')">3</button>
+            <button class="button" onclick="display('+')">+</button>
+            <button class="button" onclick="display('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="display('.')">.</button>
+            <button class="button" onclick="display('0')">0</button>
+            <button class="button" onclick="plusMinus()">±</button>
+            <button id="equal" onclick="calc()"><b>ENTER</b></button>
+        </div>
+    </div>    
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
