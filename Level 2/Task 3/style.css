@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-card{
+    background-color: #aba79b;
+    border-radius: 10px;
+    padding: 60px;
+    width: 50%;
+    overflow-y: auto;
+    /* overflow-wrap: break-word; */
+    height: 60vh;
+    max-height: 60vh;
+}
+
+h1{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+p{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #323f4b;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.input-container{
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    border: 0;
+    color: #323f4b;
+    height: 50px;
+    font-size: 36px;
+    max-width: 80%;
+}
+.save-button{
+    width: 100px;
+    border: 0;
+    background-color: #ada9a8;
+    border-radius: 5px;
+    height: 36px;
+    color: #ffffff;
+}
+
+.todo-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bfbdbd;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    border-radius: 5px;
+    font-family: Roboto;
+    margin-bottom: 10px;
+}
+.btn{
+    border: solid 1px #323f4b;
+    background-color: transparent;
+    margin: 1px;
+    border-radius: 3px;
+}
